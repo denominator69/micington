@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"><head><script>/* GUI35.2 boot guard (runs before anything else): one-time purge of everything stored by older builds (service workers, Cache Storage, IndexedDB, all localStorage except a few safe validated prefs), ?reset clears all, anchor watch never armed at boot, WebGL/software check, and a crash catcher that shows + stores the first errors (localStorage.bootlog352) so a half-started (old-looking) screen can be diagnosed. */
+<html lang="en"><head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT8F7D7ETM"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZT8F7D7ETM');</script>
+<script>/* GUI35.2 boot guard (runs before anything else): one-time purge of everything stored by older builds (service workers, Cache Storage, IndexedDB, all localStorage except a few safe validated prefs), ?reset clears all, anchor watch never armed at boot, WebGL/software check, and a crash catcher that shows + stores the first errors (localStorage.bootlog352) so a half-started (old-looking) screen can be diagnosed. */
 (function(){var VER='35.2',KEEP=['vo21','bri19','engHrs20','engHrs21','svc21','bh24','dl24','crew','fishOv19','greet21','sp18n','tide13','tc24','wx','mig18hatch2','bootlog352','owmKey352','om352'];
 try{if('serviceWorker' in navigator&&navigator.serviceWorker.getRegistrations)navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.unregister();});}).catch(function(){});}catch(e){}
 try{if(window.caches&&caches.keys)caches.keys().then(function(k){k.forEach(function(n){caches.delete(n);});}).catch(function(){});}catch(e){}
