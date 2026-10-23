@@ -41,3 +41,5 @@ figure img:hover{transform:none}
 .supportrow{display:flex;gap:30px;align-items:center;flex-wrap:wrap}.supportrow>div{flex:1 1 380px}.supportrow p{line-height:1.6}
 .qr{width:220px;background:#fff;border-radius:14px;padding:10px;transition:transform .3s,box-shadow .3s}.qr:hover{transform:scale(1.05);box-shadow:0 0 24px rgba(95,208,255,.5)}
 .nav a.navdonate{background:#ff3d3d;color:#fff;padding:6px 14px;border-radius:20px}
+
+.guigrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guicard{display:block;background:#111;border-radius:10px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .2s}.guicard:hover{transform:scale(1.04)}.guicard img{width:100%;aspect-ratio:5/3;object-fit:cover;display:block}.guicard span{display:block;padding:.5rem .8rem;font-weight:600}.noshot{aspect-ratio:5/3;display:flex;align-items:center;justify-content:center;color:#777}
