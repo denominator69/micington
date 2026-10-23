@@ -38,3 +38,6 @@ figure img:hover{transform:none}
 .timeline li:hover{transform:translateX(6px)}
 .timeline li::before{content:"";position:absolute;left:-31px;top:14px;width:13px;height:13px;border-radius:50%;background:#ff3d3d;box-shadow:0 0 10px #ff3d3d}
 .timeline b{display:block;color:#5fd0ff;margin-bottom:3px}
+.supportrow{display:flex;gap:30px;align-items:center;flex-wrap:wrap}.supportrow>div{flex:1 1 380px}.supportrow p{line-height:1.6}
+.qr{width:220px;background:#fff;border-radius:14px;padding:10px;transition:transform .3s,box-shadow .3s}.qr:hover{transform:scale(1.05);box-shadow:0 0 24px rgba(95,208,255,.5)}
+.nav a.navdonate{background:#ff3d3d;color:#fff;padding:6px 14px;border-radius:20px}
