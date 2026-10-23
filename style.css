@@ -43,3 +43,23 @@ figure img:hover{transform:none}
 .nav a.navdonate{background:#ff3d3d;color:#fff;padding:6px 14px;border-radius:20px}
 
 .guigrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}.guicard{display:block;background:#111;border-radius:10px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .2s}.guicard:hover{transform:scale(1.04)}.guicard img{width:100%;aspect-ratio:5/3;object-fit:cover;display:block}.guicard span{display:block;padding:.5rem .8rem;font-weight:600}.noshot{aspect-ratio:5/3;display:flex;align-items:center;justify-content:center;color:#777}
+/* nav redesign */
+.nav{padding:10px 28px;gap:24px;backdrop-filter:blur(6px);border-bottom:1px solid #ffffff14}
+.nav .logo{flex:0 0 auto;margin:0}
+.nav nav{display:flex;align-items:center;flex:1;gap:4px;justify-content:flex-end}
+.nav nav a{margin:0;padding:8px 11px;border-radius:8px;font-size:14.5px;font-weight:600;letter-spacing:.3px;white-space:nowrap;transition:background .15s,color .15s}
+.nav nav a:hover{background:#ffffff12;color:#fff}
+.nav nav a.navshop{margin-left:14px;border:1px solid #ff8a1f;color:#ff9a3c;padding:7px 14px;border-radius:20px}
+.nav nav a.navshop:hover{background:#ff8a1f22}
+.nav nav a.navdonate{margin-left:6px;padding:7px 16px;border-radius:20px}
+.navtoggle,.navburger{display:none}
+@media(max-width:1100px){.nav nav a{padding:8px 7px;font-size:13.5px}}
+@media(max-width:900px){
+.nav{flex-wrap:wrap;padding:10px 16px}
+.navburger{display:flex;flex-direction:column;gap:5px;cursor:pointer;padding:8px;margin-left:auto}
+.navburger span{width:24px;height:2px;background:#cfe7f5;border-radius:2px}
+.nav nav{display:none;flex-basis:100%;flex-direction:column;align-items:stretch;gap:2px;padding:8px 0 4px}
+.navtoggle:checked~nav{display:flex}
+.nav nav a{font-size:16px;padding:10px 12px}
+.nav nav a.navshop,.nav nav a.navdonate{margin:6px 0 0;text-align:center}
+}
