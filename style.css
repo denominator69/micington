@@ -86,3 +86,5 @@ figure img:hover{transform:none}
 #topics .subhead{font-size:1.5rem;font-weight:800;color:#e8f6ff;letter-spacing:.06em;margin:2.6rem 0 1.1rem;padding-bottom:.45rem;border-bottom:2px solid rgba(95,208,255,.35);display:flex;align-items:center;flex-wrap:wrap;gap:.4rem;line-height:1.25}
 #topics .subhead .count{font-size:.85rem;font-weight:700}
 @media(max-width:600px){#topics .subhead{font-size:1.2rem;letter-spacing:.04em;margin:2rem 0 .9rem}}
+.spitem .ripbadge{position:absolute;top:8px;right:8px;z-index:2;font-style:normal;font-family:Georgia,'Times New Roman',serif;font-size:.72rem;font-weight:600;letter-spacing:.18em;padding:3px 8px 3px 10px;color:#ececec;background:rgba(20,20,20,.72);border:1px solid rgba(255,255,255,.35);border-radius:3px}
+.spitem.rip img{filter:grayscale(35%)}
