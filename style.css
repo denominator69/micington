@@ -83,3 +83,6 @@ figure img:hover{transform:none}
 @media(max-width:600px){.spgrid{grid-template-columns:1fr 1fr;gap:8px}.spitem span{font-size:.7rem;padding:12px 6px 5px}}
 
 .tl{border-left:3px solid rgba(255,255,255,.25);padding-left:18px}.tlch{position:relative;margin:0 0 34px}.tlch:before{content:"";position:absolute;left:-26px;top:6px;width:13px;height:13px;border-radius:50%;background:#fff}.tldate{font-size:.85rem;opacity:.7;text-transform:uppercase;letter-spacing:.08em}.tlhead h3{margin:2px 0 4px}.tlwarn{margin-top:10px;font-size:.95rem}.cw{max-width:760px;margin:40px auto;padding:0 18px;text-align:center}.cw .cwbox{border:2px solid #c33;border-radius:10px;padding:24px}.cw button{font-size:1.1rem;padding:10px 20px;margin-top:12px;cursor:pointer}.cwimgs img{width:100%;margin:14px 0;border-radius:6px}
+#topics .subhead{font-size:1.5rem;font-weight:800;color:#e8f6ff;letter-spacing:.06em;margin:2.6rem 0 1.1rem;padding-bottom:.45rem;border-bottom:2px solid rgba(95,208,255,.35);display:flex;align-items:center;flex-wrap:wrap;gap:.4rem;line-height:1.25}
+#topics .subhead .count{font-size:.85rem;font-weight:700}
+@media(max-width:600px){#topics .subhead{font-size:1.2rem;letter-spacing:.04em;margin:2rem 0 .9rem}}
